@@ -1,0 +1,9 @@
+{
+  "score": "min",
+  "threshold": 0.95,
+  "mobile_threshold": 1.0,
+  "organization_mode": "off",
+  "repair_zones": true,
+  "check_geometry": true,
+  "check_checksums": true
+}

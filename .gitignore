@@ -1,0 +1,37 @@
+# Исходные OCR-данные для локального запуска
+/data/
+
+# Виртуальные окружения
+.venv/
+venv/
+
+# Кеши Python и инструментов проверки
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Локальные настройки редакторов и инструментов
+.idea/
+.vscode/
+/.agents/
+/.codex/
+/.aws/
+
+# Локальные переменные окружения; пример настроек можно публиковать
+.env
+.env.*
+!.env.example
+
+# История переписки и промежуточные результаты
+/chat_history.md
+/train_answers.jsonl
+*.tmp
+
+# Служебные файлы операционной системы
+.DS_Store
+Thumbs.db
